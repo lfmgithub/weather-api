@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: redis
+    ports: 
+    - 6379:6379
+    networks:
+      - shared-net
+  
+  api:
+    image: api:1.0
+    container_name: api
+    links:
+      - redis
+    depends_on:
+      - redis
+    ports:
+    - 8080:8080
+    networks:
+      - shared-net
+
+networks:
+  shared-net:
+    driver: bridge
