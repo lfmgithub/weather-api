@@ -16,6 +16,7 @@ dependencies {
     implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.4.4'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.4.4'
+    implementation group: 'redis.clients', name: 'jedis', version: '3.6.3'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.4.4'
     implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '3.0.2'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.4.4'

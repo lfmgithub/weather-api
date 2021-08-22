@@ -40,6 +40,8 @@ public class LocationWeatherService implements Weather {
                         throw new ServerNotAvailableException("Data source is not available, try later.");
                     }
             }
+        } catch (IllegalArgumentException e) {
+            throw new BadRequestException("Provide a a valid location name.");
         }
         return location;
     }
