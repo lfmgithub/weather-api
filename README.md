@@ -7,6 +7,10 @@ A simple weather API that retrieves the weather data from different locations.
 Make sure you have docker installed and running, then execute the deploy script. 
 Swagger should be accessible through `http://localhost:8080/swagger-ui/`
 
+### Heroku
+---
+The application is also available at `https://luizfmv-weather-api.herokuapp.com/swagger-ui/`.
+
 ### Endpoints
 ---
 
