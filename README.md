@@ -14,7 +14,7 @@ The application is also available at `https://luizfmv-weather-api.herokuapp.com/
 ### Endpoints
 ---
 
-| HTTP Method  | Endpoint | Authentication |
+| HTTP Method  | Endpoint | Authorization |
 | ------------- |:-------------:| ------------- |
 |   GET   |  /api/weather  |  Required  |
 | GET    |   /api/health   |  Not required  |
