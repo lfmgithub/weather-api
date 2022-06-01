@@ -5,7 +5,7 @@ A simple weather API that retrieves the weather data from different locations.
 ### Running locally
 ---
 Make sure you have docker installed and running, then execute the deploy script. 
-Swagger should be accessible through [`http://localhost:8080/swagger-ui/`](http://localhost:8080/swagger-ui/).
+Swagger should be accessible through [http://localhost:8080/swagger-ui/](http://localhost:8080/swagger-ui/).
 
 ### Endpoints
 ---
